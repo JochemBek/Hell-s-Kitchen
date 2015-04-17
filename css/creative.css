@@ -64,6 +64,10 @@ p {
     color: rgba(255,255,255,.7);
 }
 
+.bg-secondary {
+	background-color: rgba(209,41,15,1);
+}
+
 section {
     padding: 100px 0;
 }
@@ -197,7 +201,7 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700; 
 }
 
 header .header-content .header-content-inner hr {
@@ -209,14 +213,6 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
-}
-
-header .header-content .header-content-inner div {
-	height: 450px;
-	width: 1125px;
-	position: auto;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 @media(min-width:768px) {
@@ -237,7 +233,7 @@ header .header-content .header-content-inner div {
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
-        max-width: 80%;
+        max-width: 100%;
         font-size: 18px;
     }
 }
@@ -323,10 +319,6 @@ header .header-content .header-content-inner div {
 
 .call-to-action h2 {
     margin: 0 auto 20px;
-}
-
-.call-to-action {
-	margin-top: 80px;
 }
 
 .text-primary {
@@ -481,3 +473,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
